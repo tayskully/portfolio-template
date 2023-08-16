@@ -10,12 +10,12 @@
     <header class="headfoot">
       <nav>
         <ul>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact Me</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact Me</a></li>
         </ul>
-        Git Hub link, portfolio link, contact link 
-        </nav>
+        Git Hub link, portfolio link, contact link
+      </nav>
     </header>
     <main>
       <section id="bio">
@@ -30,11 +30,24 @@
       </section>
       <section id="contact">
         <h2>Contact Me!</h2>
-        <ul>
+        <form class="form">
+          <div class="input-group">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="input-group">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="input-group">
+            <input type="submit" value="Subscribe!" />
+          </div>
+        </form>
+        <!--<ul>
           <li>Name insert box</li>
           <li>Email insert box</li>
           <li>send button</li>
-        </ul>
+        </ul>-->
       </section>
     </main>
     <footer class="headfoot">TaySully's Portfolio &copy; 2023</footer>
