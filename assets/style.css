@@ -1,7 +1,35 @@
+/*global styles */
 * {
   border: 2px solid red;
   background-color: white;
 }
-.headfoot {
-  background-color: rgb(247, 140, 8);
+body {
+  margin: 0px;
+}
+img {
+  size: 100%;
+  height: auto;
+}
+/* header styles */
+header {
+  background-color: rgb(240, 207, 168);
+  color:rgb(3, 3, 3);
+  position: relative;
+}
+header a {
+  color: rgb(3, 3, 3);
+}
+header nav {
+  width: 400px;
+}
+header nav ul {
+list-style-type: none;
+}
+/*section styles */
+section {
+  text-align: center;
+}
+
+.contact {
+background-color: bisque;
 }
