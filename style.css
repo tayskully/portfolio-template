@@ -1,6 +1,7 @@
 * {
-    border: 2px solid red
+  border: 2px solid red;
+  background-color: white;
 }
-body {
-    background-color: white;
+.headfoot {
+  background-color: bisque;
 }
